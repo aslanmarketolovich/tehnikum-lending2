@@ -1,0 +1,296 @@
+/* Стили */
+
+@font-face {
+  font-family: Chava;
+  src: url(../chava1.otf);
+}
+
+@font-face {
+  font-family: TT Hoves;
+  src: url(../fonts/TTHoves-Black.eot);
+}
+
+/* ПЕРВАЯ СТРАНИЦА */
+.first_page {
+  width: 1280px;
+  height: 701px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: TT Hoves;
+}
+
+section {
+  margin: 0 calc(10.6vw - 16px) 160px;
+}
+
+.logo_tehnikum {
+  width: calc(8.8vw + 182px);
+  margin-top: 37px;
+  margin-bottom: 85px;
+}
+
+.course_info {
+  display: flex;
+  gap: 161px;
+  margin-bottom: 76px;
+}
+
+.course_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-weight: bold;
+}
+
+.html_css_js h1 {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Chava;
+}
+
+.long_text {
+  font-family: TT Hoves;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  margin-top: 40px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+#primary_botton {
+  padding: 15px 20px;
+  gap: 10px;
+  border-radius: 12px;
+  width: 328px;
+  background-color: #6e3aba;
+  border: none;
+  cursor: pointer;
+
+  font-family: TT Hoves;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+#secondery {
+  margin-left: 40px;
+
+  font-family: TT Hoves;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  width: Fixed (328px);
+  height: Hug (61px);
+  padding: 15px 40px;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1;
+  border-width: 1px;
+  border-color: #6e3aba;
+  background-color: white;
+  color: #6e3aba;
+
+  cursor: pointer;
+}
+
+#primary_botton:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+#secondery:hover {
+  background-color: rgb(177, 170, 170);
+  transition: 1s;
+}
+
+/* ПЕРВАЯ СТРАНИЦА */
+
+/* ВТОРАЯ СТРАНИЦА */
+.second_page h2 {
+  font-family: TT Hoves;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.students {
+  margin-top: 41px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 70px;
+}
+
+.student {
+  flex-basis: 450px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.student img {
+  width: 287px;
+  height: 287px;
+  padding-top: 23px;
+}
+
+.spanone {
+  font-family: TT Hoves;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.pone {
+  font-family: TT Hoves;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* ВТОРАЯ СТРАНИЦА */
+
+/* ТРЕТЬЯ СЕКЦИЯ */
+
+#third_page {
+  background-color: #6e3aba;
+  width: 1471px;
+  margin: 0px 0px;
+}
+
+#h2 h2 {
+  font-family: TT Hoves;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 61.26px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  margin-top: 80px;
+  color: white;
+}
+
+.time h2 {
+  font-size: 174px;
+  font-weight: 400;
+  line-height: 187.05px;
+  text-align: left;
+  font-family: Chava;
+}
+
+.divspan .span {
+  font-family: TT Hoves;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 31.81px;
+  text-align: center;
+}
+
+#divh2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.time p {
+  font-family: TT Hoves;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 31.81px;
+  text-align: center;
+}
+
+.cloak {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 57px;
+}
+
+.time {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.buttonof3section button {
+  display: flex;
+  width: 328px;
+  padding: 20px 0px;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  color: #6e3aba;
+  border: solid 1px #6e3aba;
+  border-radius: 12px;
+  margin-top: 77px;
+  cursor: pointer;
+  font-size: 18px;
+
+  margin-bottom: 88px;
+}
+
+.buttonof3section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ТРЕТЬЯ СЕКУЦИЯ */
+
+/* ЧЕТВЕРТАЯ СЕКЦИЯ */
+
+.fourth_page {
+  margin-top: 160px;
+  margin-left: 120px;
+}
+
+.fourth_page h1 {
+  margin-bottom: 158px;
+
+  font-family: TT Hoves;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 68.32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  text-transform: uppercase;
+}
+
+.speaker {
+  display: flex;
+}
+
+.speaker .legend {
+  margin-right: 51px;
+}
+
+/* ЧЕТВЕРТАЯ СЕКЦИЯ */
